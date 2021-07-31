@@ -1,5 +1,18 @@
 /*
 Use of typedef for function pointers in C/C++
+
+typedef is a language construct that associates a name to a type.
+You use it the same way you would use the original type, for instance
+
+  typedef int myinteger;
+  typedef char *mystring;
+  typedef void (*myfunc)();
+  
+using them like
+
+  myinteger i;   // is equivalent to    int i;
+  mystring s;    // is the same as      char *s;
+  myfunc f;      // compile equally as  void (*f)();
 */
 
 //GLOBAL FUNCTION POINTERS
